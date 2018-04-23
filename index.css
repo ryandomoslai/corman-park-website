@@ -1,0 +1,97 @@
+.main-container {
+    padding-top: 50px;
+    width: 100%;
+}
+
+.index-intro {
+    width: 100%;
+    background-color: #4357AD;
+}
+
+.index-intro .jumbotron {
+    padding: 100px 60px;
+    margin: 0px;
+    background-image: url('header.jpg');
+    /* background-size: cover; */
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 70vh;
+}
+
+.title {
+    color: white;
+}
+
+.index-intro .jumbotron h1 {
+    font-size: 30px;
+    color: white;
+}
+
+.index-intro .jumbotron p {
+    font-size: 16px;
+    color: white;
+    font-weight: 100;
+    padding-top: 1rem;
+}
+
+@media (min-width: 768px) {
+    .index-intro .jumbotron h1 {
+        font-size: 40px;
+    }
+
+    .index-intro .jumbotron p {
+        font-size: 24px;
+    }
+}
+
+@media (min-width: 992px) {
+    .index-intro .jumbotron {
+        height: 100vh;
+        background-size: cover;
+    }
+    .index-intro .jumbotron h1 {
+        font-size: 50px;
+    }
+
+    .index-intro .jumbotron p {
+        font-size: 32px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .index-intro .jumbotron h1 {
+        font-size: 65px;
+    }
+}
+
+.navbar-dark a {
+    color: #E4DFDA;
+    font-weight: 600; 
+}
+
+.primary-back {
+    background-color: #4357AD;
+}
+
+.primary-back h1 {
+    padding-top: 4rem;
+    color: #E4DFDA;
+}
+
+.primary-back h4 {
+    color: #D4B483;
+}
+
+.primary-back p {
+    color: #E4DFDA;
+}
+
+#map {
+    width: cover;
+    height: auto;
+    background-color: white;
+}
+
+.secondary-back {
+    
+}
