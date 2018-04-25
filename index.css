@@ -34,6 +34,38 @@
     padding-top: 1rem;
 }
 
+.btn-lg.round {
+	border-radius: 30px;
+}
+
+.btn {
+    padding: 14px 24px;
+    border: 0 none;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    width: 9rem;
+    margin-top: 4rem;
+}
+ 
+.btn:focus, .btn:active:focus, .btn.active:focus {
+    outline: 0 none;
+}
+ 
+.btn-primary {
+    background: #4357AD;
+    color: #ffffff;
+}
+ 
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+    background: #4357AD;
+}
+ 
+.btn-primary:active, .btn-primary.active {
+    background: #4357AD;
+    box-shadow: none;
+}
+
 @media (min-width: 768px) {
     .index-intro .jumbotron h1 {
         font-size: 40px;
@@ -41,6 +73,16 @@
 
     .index-intro .jumbotron p {
         font-size: 24px;
+    }
+
+    .btn {
+        margin-top: 4rem;
+    }
+}
+
+@media (min-width: 831px) {
+    .btn {
+        margin-top: 6rem;
     }
 }
 
@@ -56,13 +98,23 @@
     .index-intro .jumbotron p {
         font-size: 32px;
     }
+
+    .btn {
+        margin-top: 12rem;
+    }
 }
 
 @media (min-width: 1200px) {
     .index-intro .jumbotron h1 {
         font-size: 65px;
     }
+
+    .btn {
+        margin-top: 12rem;
+    }
 }
+
+
 
 .navbar-dark a {
     color: #E4DFDA;
@@ -80,10 +132,12 @@
 
 .primary-back h4 {
     color: #D4B483;
+    font-weight: 300;
 }
 
 .primary-back p {
     color: #E4DFDA;
+    font-weight: 100;
 }
 
 #map {
@@ -92,6 +146,11 @@
     background-color: white;
 }
 
-.secondary-back {
-    
+.secondary-back h1 {
+    color: #4357AD;
+    padding-bottom: 2rem;
+}
+
+.secondary-back h3 {
+    color: #619B8A;
 }
