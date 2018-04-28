@@ -43,6 +43,9 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#" onclick="moveSection('Social')">Social</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" onclick="moveSection('Contact Us')">Contact Us</a>
+                </li>
             </ul>
         </div>
     </nav>
@@ -165,13 +168,68 @@
                 <div class="col-sm-2"></div>
                 <div class="col-sm-8" align="center">
                     <h1>The Team</h1><br>
-                    <p>Click here for bios of the team.<br>
-                    <a class="btn btn-primary btn-lg round text-center" href="team-bios.html" style="margin-top:2em;">OPEN</a>
-                    </p>
+                    <h4 id="photos">Click here to view the bios of our team.</h4><br>
+                    <button data-toggle="collapse" data-target="#team-photos" class="btn btn-primary btn-lg round text-center" href="#" style="margin-top:2em; margin-bottom:2em;" onclick="moveSection('photos')" >OPEN</button>
                 </div>
                 <div class="col-sm-2"></div>
             </div>
+            <div class="container-fluid collapse" id="team-photos">
+                <div class="row">
+                    <div class="col-sm-4 team-photo">
+                        <img src="./img/staff.png" data-toggle="modal" data-target="#myModal">
+                    </div>
+                    <div class="col-sm-4 team-photo">
+                        <img src="./img/staff.png" data-toggle="modal" data-target="#myModal">
+                    </div>
+                    <div class="col-sm-4 team-photo">
+                        <img src="./img/staff.png" data-toggle="modal" data-target="#myModal">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4 team-photo">
+                        <img src="./img/staff.png" data-toggle="modal" data-target="#myModal">
+                    </div>
+                    <div class="col-sm-4 team-photo">
+                        <img src="./img/staff.png" data-toggle="modal" data-target="#myModal">
+                    </div>
+                    <div class="col-sm-4 team-photo">
+                        <img src="./img/staff.png" data-toggle="modal" data-target="#myModal">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4 team-photo">
+                        <img src="./img/staff.png" data-toggle="modal" data-target="#myModal">
+                    </div>
+                    <div class="col-sm-4 team-photo">
+                        <img src="./img/staff.png" data-toggle="modal" data-target="#myModal">
+                    </div>
+                    <div class="col-sm-4 team-photo">
+                        <img src="./img/staff.png" data-toggle="modal" data-target="#myModal">
+                    </div>
+                </div>
+            </div>
         </article>
+    </div>
+
+    <!-- Modal -->
+    <div id="myModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+    
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Modal Header</h4>
+                </div>
+                <div class="modal-body">
+                    <p>Some text in the modal.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+    
+        </div>
     </div>
 </section>  
 </body>
