@@ -16,7 +16,7 @@
 
 </head>
 
-<body id="page-top">
+<body id="page-top" onload="setTeamGallery()">
 <div class="container-fluid">
 
     <nav class="navbar navbar-expand-md bg-info navbar-dark fixed-top">
@@ -168,45 +168,12 @@
                 <div class="col-sm-2"></div>
                 <div class="col-sm-8" align="center">
                     <h1>The Team</h1><br>
-                    <h4 id="photos">Click here to view the bios of our team.</h4><br>
-                    <button data-toggle="collapse" data-target="#team-photos" class="btn btn-primary btn-lg round text-center" href="#" style="margin-top:2em; margin-bottom:2em;" onclick="moveSection('photos')" >OPEN</button>
+                    <h4 id="photos">View bios for the team.</h4><br>
+                    <button data-toggle="collapse" data-target="#team-photos" class="btn btn-primary btn-lg round text-center" href="#" style="margin-top:2em; margin-bottom:2em;" onclick="photoButtonState('photos')"  id="photo-button">OPEN</button>
                 </div>
                 <div class="col-sm-2"></div>
             </div>
             <div class="container-fluid collapse" id="team-photos">
-                <div class="row">
-                    <div class="col-sm-4 team-photo">
-                        <img src="./img/staff.png" data-toggle="modal" data-target="#myModal">
-                    </div>
-                    <div class="col-sm-4 team-photo">
-                        <img src="./img/staff.png" data-toggle="modal" data-target="#myModal">
-                    </div>
-                    <div class="col-sm-4 team-photo">
-                        <img src="./img/staff.png" data-toggle="modal" data-target="#myModal">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-4 team-photo">
-                        <img src="./img/staff.png" data-toggle="modal" data-target="#myModal">
-                    </div>
-                    <div class="col-sm-4 team-photo">
-                        <img src="./img/staff.png" data-toggle="modal" data-target="#myModal">
-                    </div>
-                    <div class="col-sm-4 team-photo">
-                        <img src="./img/staff.png" data-toggle="modal" data-target="#myModal">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-4 team-photo">
-                        <img src="./img/staff.png" data-toggle="modal" data-target="#myModal">
-                    </div>
-                    <div class="col-sm-4 team-photo">
-                        <img src="./img/staff.png" data-toggle="modal" data-target="#myModal">
-                    </div>
-                    <div class="col-sm-4 team-photo">
-                        <img src="./img/staff.png" data-toggle="modal" data-target="#myModal">
-                    </div>
-                </div>
             </div>
         </article>
     </div>
