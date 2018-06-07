@@ -156,6 +156,11 @@
     color: #619B8A;
 }
 
+.secondary-back p {
+    color: #333333;
+    font-weight: 100;
+}
+
 .team-photo {
 }
 
