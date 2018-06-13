@@ -136,9 +136,18 @@
     font-weight: 300;
 }
 
+.primary-back h4.phone {
+    color: #FF9505;
+    font-weight: 700;
+}
+
 .primary-back p {
     color: #E4DFDA;
     font-weight: 100;
+}
+
+.primary-back p.phone {
+    color: #D4B483;
 }
 
 #map {
