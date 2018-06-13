@@ -150,6 +150,15 @@
     color: #D4B483;
 }
 
+.primary-back tr {
+    color: #E4DFDA;
+    font-weight: 700;
+}
+
+.primary-back td.date {
+    font-weight: 300;
+}
+
 #map {
     width: cover;
     height: auto;
