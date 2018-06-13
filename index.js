@@ -124,6 +124,8 @@ function setTeamGallery() {
 
         var hoverOverlay = document.createElement("div");
         hoverOverlay.classList.add("overlay");
+        hoverOverlay.id = people[i].name;
+        hoverOverlay.onclick = function () { setModal(this.id); };
         column.appendChild(hoverOverlay);
         var hoverText = document.createElement("div");
         hoverText.classList.add("text");
@@ -133,6 +135,22 @@ function setTeamGallery() {
 
         if (i === people.length - 1) {
             teamContainer.appendChild(row);
+        }
+    }
+}
+
+function setModal(id) {
+    for (var i = 0; i < people.length; i ++) {
+        if (people[i].name == id) {
+            var person = people[i];
+            var name = document.getElementById("modalName");
+            name.innerHTML = person.name;
+            var position = document.getElementById("modalPosition");
+            position.innerHTML = person.position;
+            var image = document.getElementById("modalImage");
+            image.setAttribute("src", person.image);
+            var bio = document.getElementById("modalBio");
+            bio.innerHTML = person.bio;
         }
     }
 }

@@ -162,6 +162,12 @@
 .secondary-back h1 {
     color: #4357AD;
     padding-bottom: 2rem;
+    text-align: center;
+}
+
+.modal-body .secondary-back h1 {
+    padding-bottom: 0rem;
+    text-align: center;
 }
 
 .secondary-back h3 {
@@ -210,3 +216,10 @@
   opacity: 1;
 }
 
+.modal-body img {
+    object-fit: cover;
+    height: 16rem;
+    width: 16rem;
+    object-position: center;
+    border-radius: 10%;
+}
