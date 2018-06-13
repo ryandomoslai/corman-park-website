@@ -38,7 +38,7 @@
 	border-radius: 30px;
 }
 
-.btn {
+.btnover .btn {
     padding: 14px 24px;
     border: 0 none;
     font-weight: 700;
@@ -48,21 +48,15 @@
     margin-top: 4rem;
 }
  
-.btn:focus, .btn:active:focus, .btn.active:focus {
+.btnover .btn:focus, .btn:active:focus, .btn.active:focus {
     outline: 0 none;
 }
  
-.btn-primary {
-    background: #4357AD;
+.btnover .btn-primary {
     color: #ffffff;
 }
  
-.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
-    background: #4357AD;
-}
- 
-.btn-primary:active, .btn-primary.active {
-    background: #4357AD;
+.btnover .btn-primary:active, .btnover .btn-primary.active {
     box-shadow: none;
 }
 
@@ -75,13 +69,13 @@
         font-size: 24px;
     }
 
-    .btn {
+    .btnover .btn {
         margin-top: 4rem;
     }
 }
 
 @media (min-width: 831px) {
-    .btn {
+    .btnover .btn {
         margin-top: 6rem;
     }
 }
@@ -99,7 +93,7 @@
         font-size: 32px;
     }
 
-    .btn {
+    .btnover .btn {
         margin-top: 12rem;
     }
 }
@@ -109,7 +103,7 @@
         font-size: 65px;
     }
 
-    .btn {
+    .btnover .btn {
         margin-top: 12rem;
     }
 }
