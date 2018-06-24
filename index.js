@@ -3,7 +3,10 @@ var people = [
         "name": "Harvey",
         "image": "./img/Harvey.jpg",
         "position": "Lead Vet & Owner",
-        "bio": "Owner of Corman Park"
+        "bio": "Harvey is from Whitewood, SK but currently lives in Saskatoon, SK (?? Not a farm near Saskatoon). He attended the Western College of Veterinary Medicine, Saskatoon, SK and graduated in 1996. He is a Husband (Lisa) and father ( Kyla & Ryan).<br>" 
+        + "He was raised on a farm and was around both large and small animals all his life. Although he feels becoming a Veterinarian was a natural progression for him, he joined the Navy and spent 10 yrs as an Officer before deciding on veterinary schooling.Once he graduated, he worked in Watrus, SK, Prince Albert, SK and finally Saskatoon, SK before practising at Corman Park Veterinary Services. In 2003, Harvey purchased the clinic from CPVS founder Wally Kononof, becoming both Veterinarian and owner. His favorite part of the job is the variety as every day is different.<br>" 
+        + "Other hobbies –<br>"
+        + "There are three four - legged furbabies in Dr.Harvey’s family, Chester a Pug, Max a Shit zu and Marley a cat. There are also cows and horses."
     },
     {
         "name": "Inoka",
@@ -38,8 +41,12 @@ var people = [
     {
         "name": "Jobie",
         "image": "./img/Jobie.jpg",
-        "position": "Other vet",
-        "bio": "Other vet of Corman Park"
+        "position": "Vet Tech",
+        "bio": "Jobie is from Warman, SK who currently lives in St. Isidore de Bellevue, SK running a cattle ranch with her boyfriend (Sam). She attended Lakeland Collage in Vermillion, AB and graduated from the Animal Health Technician program in 2011.<br>"
+        + "She recalls always wanting to be a Veterinarian but later learned of the Animal Health Technology program and that with it she would be in a positon to have far more interaction and hands-on work with the animals versus as a Veterinarian. It was because she loves to see the human/animal bond, loves to interact with the owners of pets and her passion for animals that made her realize she would rather be an Animal Health Technician.<br>"
+        + "Jobie became a part of the Corman Park Veterinary Services family in Sept of 2016.  Her favorite parts of her job are the challenges of collecting blood and placing catheters as well as hearing client stories about their pets.<br>"
+        + "She keeps herself busy with many things other than working at the clinic. With a new Cattle Ranch she is learning to manage/run the ranch including learning to rope and treat cattle. She enjoys horse-back riding, reading (if time allows), taking/editing photos and putting them in albums. As well, she has been learning about essential oils and their benefits for both humans and animals.  She shares that knowledge through Youngliving Essential Oils. Although, one of her biggest highlights is “Face-timing” with her niece who lives in Missouri.<br>"
+        + "There are many four-legged furbabies that make up Jobie and Sam’s family. Lucy a Red Heeler, Ace a Quarter Horse mare, Buck a Welsh Pony/Quarter Horse. Chuck & Spud - cattle working dogs, as well as 6 other horses. Then there is Polly a cat with a story around how she became a member of Jobie’s home.  Polly had been surrendered to the clinic and Jobie hated to see her sitting in a kennel for days while waiting for a new home. One night Jobie took her home for a break from the clinic kennel and Polly never left Jobie’s home again. Of course, she loves to spend time playing with every one of the pets."
     },
     {
         "name": "Mel",
