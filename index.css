@@ -20,6 +20,11 @@
 
 .title {
     color: white;
+
+}
+
+.title-card {
+    background-color:rgba(0, 0, 0, 0.5);
 }
 
 .index-intro .jumbotron h1 {
@@ -184,6 +189,7 @@
 
 .team-photo img{
     width: 100%;
+    height: 100%;
     object-fit: cover;
     padding: 5%;
 }
